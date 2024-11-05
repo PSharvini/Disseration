@@ -1,0 +1,1260 @@
+{
+    "create": [
+        {
+            "prompt": "Please create a namespace named 'production'.",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "Could you set up a namespace called 'testing'?",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "Let's create a namespace for our development environment. Name it 'dev'.",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "I need a namespace for our frontend services. Let's call it 'frontend'.",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "We require a namespace named 'backend' for our backend services. Can you create it?",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "Create a namespace named 'staging' for our staging environment.",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "Let's organize our monitoring resources into a namespace named 'monitoring'.",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "Could you create a namespace named 'logging' for our logging infrastructure?",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "We need a namespace called 'analytics' for our analytics services. Please set it up.",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "For our CI/CD pipelines, let's have a namespace named 'ci-cd'.",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "Create a namespace named 'tools' to host our various utility services.",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "Please establish a namespace called 'security' for our security-related components.",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "Can you create a namespace named 'data' for our data-related services?",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "Let's create a namespace for our machine learning models. Name it 'ml-models'.",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "We need a namespace named 'integration' for our integration testing. Can you create it?",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "We need a namespace for our microservices architecture. Let's call it 'microservices'.",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "Could you create a namespace named 'api' for our API endpoints?",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "Let's create a namespace for our continuous deployment environment. Name it 'cd'.",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "Please set up a namespace called 'finance' for our financial services.",
+            "command": "kubectl create namespace <name>"
+        },
+        {
+            "prompt": "Can you create a namespace named 'partners' for our partner integration services?",
+            "command": "kubectl create namespace <name>"
+        }
+    ],
+    "delete": [
+        {
+            "prompt": "Can you remove the namespace named 'development'?",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "I want to clean up the 'testing' namespace. Could you delete it?",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "Please remove the namespace called 'staging'.",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "Can you delete the namespace 'ci-cd' for our pipelines?",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "We no longer need the 'legacy' namespace. Let's delete it.",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "Could you delete the namespace named 'monitoring'?",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "I want to remove the 'logging' namespace. Can you do that?",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "Let's clean up the 'demo' namespace. Please delete it.",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "Please remove the namespace 'sandbox' for our experimental work.",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "Can you delete the namespace named 'tools'?",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "We need to remove the 'backup' namespace. Please proceed with deletion.",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "Let's clean up the 'infra' namespace. Please delete it.",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "I want to remove the 'frontend' namespace. Can you do that?",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "Could you delete the namespace named 'backend' for our services?",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "We need to remove the 'data' namespace. Please proceed with deletion.",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "Let's clean up the 'security' namespace. Please delete it.",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "Can you delete the namespace named 'analytics'?",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "Please remove the namespace 'ml-models' for our machine learning models.",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "We need to remove the 'billing' namespace. Please proceed with deletion.",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "Let's clean up the 'integration' namespace. Please delete it.",
+            "command": "kubectl delete namespace <name>"
+        },
+        {
+            "prompt": "Can you delete the pod with the name 'pod_name'?",
+            "command": "kubectl delete pod <name>"
+        },
+        {
+            "prompt": "I want to remove the pod named 'pod_name'. Could you delete it?",
+            "command": "kubectl delete pod <name>"
+        },
+        {
+            "prompt": "Please delete the pod identified as 'pod_name'.",
+            "command": "kubectl delete pod <name>"
+        },
+        {
+            "prompt": "Could you remove the pod labeled as 'pod_name'?",
+            "command": "kubectl delete pod <name>"
+        },
+        {
+            "prompt": "I'd like to delete the pod with the name 'pod_name'. Can you do that?",
+            "command": "kubectl delete pod <name>"
+        },
+        {
+            "prompt": "Delete the pod named 'pod_name' for me, please.",
+            "command": "kubectl delete pod <name>"
+        },
+        {
+            "prompt": "Please remove the pod named 'pod_name'.",
+            "command": "kubectl delete pod <name>"
+        },
+        {
+            "prompt": "Could you delete the pod identified as 'pod_name'?",
+            "command": "kubectl delete pod <name>"
+        },
+        {
+            "prompt": "Can you remove the pod labeled as 'pod_name'?",
+            "command": "kubectl delete pod <name>"
+        },
+        {
+            "prompt": "I want to delete the pod named 'pod_name'. Can you do this for me?",
+            "command": "kubectl delete pod <name>"
+        },
+        {
+            "prompt": "Can you delete the service with the name 'service_name'?",
+            "command": "kubectl delete service <name>"
+        },
+        {
+            "prompt": "I want to remove the service named 'service_name'. Could you delete it?",
+            "command": "kubectl delete service <name>"
+        },
+        {
+            "prompt": "Please delete the service identified as 'service_name'.",
+            "command": "kubectl delete service <name>"
+        },
+        {
+            "prompt": "Could you remove the service labeled as 'service_name'?",
+            "command": "kubectl delete service <name>"
+        },
+        {
+            "prompt": "I'd like to delete the service with the name 'service_name'. Can you do that?",
+            "command": "kubectl delete service <name>"
+        },
+        {
+            "prompt": "Delete the service named 'service_name' for me, please.",
+            "command": "kubectl delete service <name>"
+        },
+        {
+            "prompt": "Please remove the service named 'service_name'.",
+            "command": "kubectl delete service <name>"
+        },
+        {
+            "prompt": "Could you delete the service identified as 'service_name'?",
+            "command": "kubectl delete service <name>"
+        },
+        {
+            "prompt": "Can you remove the service labeled as 'service_name'?",
+            "command": "kubectl delete service <name>"
+        },
+        {
+            "prompt": "I want to delete the service named 'service_name'. Can you do this for me?",
+            "command": "kubectl delete service <name>"
+        },
+        {
+            "prompt": "Could you please remove the deployment named 'deployment_name'?",
+            "command": "kubectl delete deployment <name>"
+        },
+        {
+            "prompt": "I need to get rid of the deployment identified as 'deployment_name'. Can you delete it?",
+            "command": "kubectl delete deployment <name>"
+        },
+        {
+            "prompt": "Please proceed to delete the deployment labeled as 'deployment_name'.",
+            "command": "kubectl delete deployment <name>"
+        },
+        {
+            "prompt": "Is it possible to remove the deployment named 'deployment_name'?",
+            "command": "kubectl delete deployment <name>"
+        },
+        {
+            "prompt": "I want to get rid of the deployment with the name 'deployment_name'. Can you do that?",
+            "command": "kubectl delete deployment <name>"
+        },
+        {
+            "prompt": "Delete the deployment named 'deployment_name' as per our requirement.",
+            "command": "kubectl delete deployment <name>"
+        },
+        {
+            "prompt": "Please delete the deployment 'deployment_name' to clean up the resources.",
+            "command": "kubectl delete deployment <name>"
+        },
+        {
+            "prompt": "Could you please remove the deployment named 'deployment_name'?",
+            "command": "kubectl delete deployment <name>"
+        },
+        {
+            "prompt": "I'd like to remove the deployment labeled 'deployment_name'. Can you do that for me?",
+            "command": "kubectl delete deployment <name>"
+        },
+        {
+            "prompt": "Can you delete the deployment 'deployment_name'? It's no longer needed.",
+            "command": "kubectl delete deployment <name>"
+        },
+        {
+            "prompt": "Please delete the statefulset named 'statefulset_name'.",
+            "command": "kubectl delete statefulset <name>"
+        },
+        {
+            "prompt": "Is it possible to remove the statefulset labeled as 'statefulset_name'?",
+            "command": "kubectl delete statefulset <name>"
+        },
+        {
+            "prompt": "I want to get rid of the statefulset with the name 'statefulset_name'. Can you do that?",
+            "command": "kubectl delete statefulset <name>"
+        },
+        {
+            "prompt": "Delete the statefulset named 'statefulset_name' to clean up the resources.",
+            "command": "kubectl delete statefulset <name>"
+        },
+        {
+            "prompt": "Please proceed to delete the statefulset identified as 'statefulset_name'.",
+            "command": "kubectl delete statefulset <name>"
+        },
+        {
+            "prompt": "Could you please remove the statefulset named 'statefulset_name'?",
+            "command": "kubectl delete statefulset <name>"
+        },
+        {
+            "prompt": "I'd like to remove the statefulset labeled 'statefulset_name'. Can you do that for me?",
+            "command": "kubectl delete statefulset <name>"
+        },
+        {
+            "prompt": "Can you delete the statefulset 'statefulset_name'? It's no longer needed.",
+            "command": "kubectl delete statefulset <name>"
+        },
+        {
+            "prompt": "We need to remove the statefulset named 'statefulset_name'. Could you take care of it?",
+            "command": "kubectl delete statefulset <name>"
+        },
+        {
+            "prompt": "I want to delete the statefulset 'statefulset_name'. Can you help with that?",
+            "command": "kubectl delete statefulset <name>"
+        },
+        {
+            "prompt": "Could you please remove the secret named 'secret_name'?",
+            "command": "kubectl delete secret <name>"
+        },
+        {
+            "prompt": "I need to get rid of the secret identified as 'secret_name'. Can you delete it?",
+            "command": "kubectl delete secret <name>"
+        },
+        {
+            "prompt": "Please proceed to delete the secret labeled as 'secret_name'.",
+            "command": "kubectl delete secret <name>"
+        },
+        {
+            "prompt": "Is it possible to remove the secret named 'secret_name'?",
+            "command": "kubectl delete secret <name>"
+        },
+        {
+            "prompt": "I want to get rid of the secret with the name 'secret_name'. Can you do that?",
+            "command": "kubectl delete secret <name>"
+        },
+        {
+            "prompt": "Delete the secret named 'secret_name' as per our requirement.",
+            "command": "kubectl delete secret <name>"
+        },
+        {
+            "prompt": "Please delete the secret 'secret_name' to clean up the resources.",
+            "command": "kubectl delete secret <name>"
+        },
+        {
+            "prompt": "Could you please remove the secret named 'secret_name'?",
+            "command": "kubectl delete secret <name>"
+        },
+        {
+            "prompt": "I'd like to remove the secret labeled 'secret_name'. Can you do that for me?",
+            "command": "kubectl delete secret <name>"
+        },
+        {
+            "prompt": "Can you delete the secret 'secret_name'? It's no longer needed.",
+            "command": "kubectl delete secret <name>"
+        }
+    ],
+    "get": [
+        {
+            "prompt": "Can I know information about namespaces?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "Could you provide details about the existing namespaces?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "I need to see the list of namespaces. Can you provide that?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "Please show me the namespaces available.",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "Can you display information about the namespaces?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "I'd like to know more about the namespaces. Could you fetch that information?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "Could you show me the namespaces and their details?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "Can you provide an overview of the existing namespaces?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "I want to see the namespaces and their properties. Can you help with that?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "Please list all the namespaces along with their details.",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "Could you fetch information about the namespaces available?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "I need a summary of the namespaces. Can you provide that?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "Can you provide an overview of the namespaces?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "Please display details about the existing namespaces.",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "I'd like to see the namespaces and their attributes. Can you help?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "Could you list down the namespaces and their properties?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "I want to view information about the namespaces. Could you assist?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "Please provide information about the namespaces.",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "Can you give me an overview of the namespaces?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "I need details about the namespaces. Can you fetch them?",
+            "command": "kubectl get namespaces"
+        },
+        {
+            "prompt": "I'd like to see the list of pods currently running. Can you provide that?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Can you show me the pods that are currently deployed?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Please list all the pods available in the cluster.",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Could you display the status of all pods in the cluster?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "I need to check the status of all pods. Can you show them?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Can you provide an overview of the pods currently running?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "I want to see the pods that are currently active. Can you show them?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Please display the pods that are currently running in the cluster.",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Could you list all the pods currently running?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Can you show me the status of all pods in the cluster?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "I need to know which pods are currently deployed. Can you provide that information?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Please list the pods available in the cluster.",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Can you display the pods that are currently running?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "I want to get a list of all pods. Can you provide it?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Could you show me all the pods currently running?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Please provide information on the pods that are currently active.",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Can you list all the pods that are currently deployed?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "I'd like to see a list of pods currently running. Can you show them to me?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Could you display the pods that are currently active?",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "Please show me the status of all pods in the cluster.",
+            "command": "kubectl get pods"
+        },
+        {
+            "prompt": "I'd like to see the list of services currently running. Can you provide that?",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "Can you show me the services that are currently deployed?",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "Please list all the services available in the cluster.",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "Could you display the status of all services in the cluster?",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "I need to check the status of all services. Can you show them?",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "Can you provide an overview of the services currently running?",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "I want to see the services that are currently active. Can you show them?",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "Please display the services that are currently running in the cluster.",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "Could you list all the services currently running?",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "Can you show me the status of all services in the cluster?",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "I need to know which services are currently deployed. Can you provide that information?",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "Please list the services available in the cluster.",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "Can you display the services that are currently running?",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "I want to get a list of all services. Can you provide it?",
+            "command": "kubectl get services"
+        },
+        {
+            "prompt": "Can you show me the deployments that are currently running?",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "Please list all the deployments available in the cluster.",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "Could you display the status of all deployments in the cluster?",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "I need to check the status of all deployments. Can you show them?",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "Can you provide an overview of the deployments currently active?",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "I want to see the deployments that are currently running. Can you show them?",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "Please display the deployments that are currently running in the cluster.",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "Could you list all the deployments currently running?",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "Can you show me the status of all deployments in the cluster?",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "I need to know which deployments are currently active. Can you provide that information?",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "Please list the deployments available in the cluster.",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "Can you display the deployments that are currently running?",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "I want to get a list of all deployments. Can you provide it?",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "Could you show me all the deployments currently running?",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "Please provide information on the deployments that are currently active.",
+            "command": "kubectl get deployments"
+        },
+        {
+            "prompt": "Can you show me all the statefulsets currently in use?",
+            "command": "kubectl get statefulsets"
+        },
+        {
+            "prompt": "Please list the statefulsets available in the cluster.",
+            "command": "kubectl get statefulsets"
+        },
+        {
+            "prompt": "Could you display the statefulsets that are currently active?",
+            "command": "kubectl get statefulsets"
+        },
+        {
+            "prompt": "I want to get a list of all statefulsets. Can you provide it?",
+            "command": "kubectl get statefulsets"
+        },
+        {
+            "prompt": "Can you show me the statefulsets that are currently in use?",
+            "command": "kubectl get statefulsets"
+        },
+        {
+            "prompt": "I'd like to see all the statefulsets currently running. Can you show them to me?",
+            "command": "kubectl get statefulsets"
+        },
+        {
+            "prompt": "Could you display the status of all statefulsets in the cluster?",
+            "command": "kubectl get statefulsets"
+        },
+        {
+            "prompt": "Please provide information on the statefulsets that are currently active.",
+            "command": "kubectl get statefulsets"
+        },
+        {
+            "prompt": "Can you list all the statefulsets that are currently deployed?",
+            "command": "kubectl get statefulsets"
+        },
+        {
+            "prompt": "I want to see a list of statefulsets currently running. Can you show them to me?",
+            "command": "kubectl get statefulsets"
+        },
+        {
+            "prompt": "Could you please show me all the available configmaps?",
+            "command": "kubectl get configmaps"
+        },
+        {
+            "prompt": "I'd like to get a list of all the configmaps. Can you provide that?",
+            "command": "kubectl get configmaps"
+        },
+        {
+            "prompt": "Please list all the configmaps currently available.",
+            "command": "kubectl get configmaps"
+        },
+        {
+            "prompt": "Can you display the configmaps that are currently active?",
+            "command": "kubectl get configmaps"
+        },
+        {
+            "prompt": "I want to see all the configmaps that are currently deployed. Can you list them?",
+            "command": "kubectl get configmaps"
+        },
+        {
+            "prompt": "Can you provide an overview of the configmaps available?",
+            "command": "kubectl get configmaps"
+        },
+        {
+            "prompt": "I need to check the status of all configmaps. Can you show them?",
+            "command": "kubectl get configmaps"
+        },
+        {
+            "prompt": "Could you list all the configmaps currently running?",
+            "command": "kubectl get configmaps"
+        },
+        {
+            "prompt": "Can you show me the configmaps that are currently in use?",
+            "command": "kubectl get configmaps"
+        },
+        {
+            "prompt": "I want to get a list of all configmaps. Can you provide it?",
+            "command": "kubectl get configmaps"
+        },
+        {
+            "prompt": "Can you please show me all the available secrets?",
+            "command": "kubectl get secrets"
+        },
+        {
+            "prompt": "I'd like to get a list of all the secrets. Can you provide that?",
+            "command": "kubectl get secrets"
+        },
+        {
+            "prompt": "Please list all the secrets currently available.",
+            "command": "kubectl get secrets"
+        },
+        {
+            "prompt": "Can you display the secrets that are currently active?",
+            "command": "kubectl get secrets"
+        },
+        {
+            "prompt": "I want to see all the secrets that are currently deployed. Can you list them?",
+            "command": "kubectl get secrets"
+        },
+        {
+            "prompt": "Can you provide an overview of the secrets available?",
+            "command": "kubectl get secrets"
+        },
+        {
+            "prompt": "I need to check the status of all secrets. Can you show them?",
+            "command": "kubectl get secrets"
+        },
+        {
+            "prompt": "Could you list all the secrets currently running?",
+            "command": "kubectl get secrets"
+        },
+        {
+            "prompt": "Can you show me the secrets that are currently in use?",
+            "command": "kubectl get secrets"
+        },
+        {
+            "prompt": "I want to get a list of all secrets. Can you provide it?",
+            "command": "kubectl get secrets"
+        },
+        {
+            "prompt": "I want to get the pods in the namespace 'namespace1'.",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "Can you provide a list of pods in the namespace 'namespace2'?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "Please show me the pods available in the namespace 'namespace3'.",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "I'd like to see the pods in the namespace 'namespace4'. Can you show them?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "Could you list the pods in the namespace 'namespace5'?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "Can you show me the pods in the namespace 'namespace6'?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "I want to know about the pods in the namespace 'namespace7'. Could you provide details?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "Please display the pods in the namespace 'namespace8'.",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "Could you list the pods in the namespace 'namespace9'?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "I'd like to see the pods in the namespace 'namespace10'. Can you provide them?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "Can you show me the pods in the namespace 'namespace11'?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "I want to know about the pods in the namespace 'namespace12'. Could you provide details?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "Please display the pods in the namespace 'namespace13'.",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "Could you list the pods in the namespace 'namespace14'?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "I'd like to see the pods in the namespace 'namespace15'. Can you provide them?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "Can you show me the pods in the namespace 'namespace16'?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "I want to know about the pods in the namespace 'namespace17'. Could you provide details?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "Please display the pods in the namespace 'namespace18'.",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "Could you list the pods in the namespace 'namespace19'?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "I'd like to see the pods in the namespace 'namespace20'. Can you provide them?",
+            "command": "kubectl get pods -n <name>"
+        },
+        {
+            "prompt": "I want to get the services available in the namespace 'namespace1'.",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "Can you provide a list of services in the namespace 'namespace2'?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "Please show me the services available in the namespace 'namespace3'.",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "I'd like to see the services in the namespace 'namespace4'. Can you show them?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "Could you list the services in the namespace 'namespace5'?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "Can you show me the services in the namespace 'namespace6'?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "I want to know about the services in the namespace 'namespace7'. Could you provide details?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "Please display the services in the namespace 'namespace8'.",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "Could you list the services in the namespace 'namespace9'?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "I'd like to see the services in the namespace 'namespace10'. Can you provide them?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "Can you show me the services in the namespace 'namespace11'?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "I want to know about the services in the namespace 'namespace12'. Could you provide details?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "Please display the services in the namespace 'namespace13'.",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "Could you list the services in the namespace 'namespace14'?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "I'd like to see the services in the namespace 'namespace15'. Can you provide them?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "Can you show me the services in the namespace 'namespace16'?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "I want to know about the services in the namespace 'namespace17'. Could you provide details?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "Please display the services in the namespace 'namespace18'.",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "Could you list the services in the namespace 'namespace19'?",
+            "command": "kubectl get services -n <name>"
+        },
+        {
+            "prompt": "I'd like to see the services in the namespace 'namespace20'. Can you provide them?",
+            "command": "kubectl get services -n <name>"
+        }
+    ],
+    "apply": [
+        {
+            "prompt": "I want to deploy a deployment with the file name deployment.yaml",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Deploy the deployment configuration specified in deployment.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Let's rollout the deployment described in deployment.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Can you deploy the app using the deployment.yaml file?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Could you deploy the service defined in service.yaml?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Please set up the service as described in service.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Let's expose the application with the service from service.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Can you deploy the service for our application using service.yaml?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Please deploy the configuration for the ingress from ingress.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Set up the ingress rules defined in ingress.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Let's configure the ingress with the settings from ingress.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Deploy the ingress resource as per ingress.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Can you deploy the secret defined in secret.yaml?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "I'd like to securely deploy secrets using the secret.yaml file.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Please set up the secret configuration described in secret.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Could you deploy the persistent volume described in persistentvolume.yaml?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Let's provision a persistent volume as per persistentvolume.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Can you deploy the persistent volume configuration from persistentvolume.yaml?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Please deploy the persistent volume described in persistentvolume.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Could you deploy the persistent volume claim using pvc.yaml?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Let's create a persistent volume claim with the settings from pvc.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Can you deploy the persistent volume claim configuration using pvc.yaml?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Please deploy the persistent volume claim from pvc.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Please deploy the configmap specified in configmap.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Let's set up the configuration map using configmap.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Can you deploy the configmap for our application using configmap.yaml?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Deploy the configmap resource as per configmap.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "I want to deploy the job described in job.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Let's execute the job specified in job.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Can you deploy the job for our application using job.yaml?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Please deploy the job resource from job.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Can you deploy the cron job configured in cronjob.yaml?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "I'd like to schedule the cron job defined in cronjob.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Please deploy the cron job configuration from cronjob.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Let's set up the cron job using cronjob.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Please deploy the statefulset defined in statefulset.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Let's create a statefulset with the settings from statefulset.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Can you deploy the statefulset for our application using statefulset.yaml?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Deploy the statefulset resource as per statefulset.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Could you deploy the daemonset specified in daemonset.yaml?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Let's set up the daemonset with the configurations from daemonset.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Can you deploy the daemonset for our application using daemonset.yaml?",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "Please deploy the daemonset resource from daemonset.yaml.",
+            "command": "kubectl apply -f <name>"
+        },
+        {
+            "prompt": "I'd like to deploy the pod defined in pod.yaml.",
+            "command": "kubectl apply -f <name>"
+        }
+    ],
+    "describe": [
+        {
+            "prompt": "Can you describe the pod with the name 'pod_name'?",
+            "command": "kubectl describe pod <name>"
+        },
+        {
+            "prompt": "I need details about the pod named 'pod_name'. Could you describe it?",
+            "command": "kubectl describe pod <name>"
+        },
+        {
+            "prompt": "Please provide a description of the pod identified as 'pod_name'.",
+            "command": "kubectl describe pod <name>"
+        },
+        {
+            "prompt": "Could you give me a breakdown of the pod labeled as 'pod_name'?",
+            "command": "kubectl describe pod <name>"
+        },
+        {
+            "prompt": "I'd like to know more about the pod with the name 'pod_name'. Can you describe it?",
+            "command": "kubectl describe pod <name>"
+        },
+        {
+            "prompt": "Describe the pod named 'pod_name' for me, please.",
+            "command": "kubectl describe pod <name>"
+        },
+        {
+            "prompt": "Please provide details about the pod named 'pod_name'.",
+            "command": "kubectl describe pod <name>"
+        },
+        {
+            "prompt": "Could you describe the current state of the pod labeled as 'pod_name'?",
+            "command": "kubectl describe pod <name>"
+        },
+        {
+            "prompt": "Can you give me information about the pod identified as 'pod_name'?",
+            "command": "kubectl describe pod <name>"
+        },
+        {
+            "prompt": "Can you describe the service with the name 'service_name'?",
+            "command": "kubectl describe service <name>"
+        },
+        {
+            "prompt": "I need details about the service named 'service_name'. Could you describe it?",
+            "command": "kubectl describe service <name>"
+        },
+        {
+            "prompt": "Please provide a description of the service identified as 'service_name'.",
+            "command": "kubectl describe service <name>"
+        },
+        {
+            "prompt": "Could you give me a breakdown of the service labeled as 'service_name'?",
+            "command": "kubectl describe service <name>"
+        },
+        {
+            "prompt": "I'd like to know more about the service with the name 'service_name'. Can you describe it?",
+            "command": "kubectl describe service <name>"
+        },
+        {
+            "prompt": "Describe the service named 'service_name' for me, please.",
+            "command": "kubectl describe service <name>"
+        },
+        {
+            "prompt": "Please provide details about the service named 'service_name'.",
+            "command": "kubectl describe service <name>"
+        },
+        {
+            "prompt": "Could you describe the current state of the service labeled as 'service_name'?",
+            "command": "kubectl describe service <name>"
+        },
+        {
+            "prompt": "Can you give me information about the service identified as 'service_name'?",
+            "command": "kubectl describe service <name>"
+        },
+        {
+            "prompt": "I want to know more about the service named 'service_name'. Can you provide a description?",
+            "command": "kubectl describe service <name>"
+        },
+        {
+            "prompt": "Can you describe the deployment with the name 'deployment_name'?",
+            "command": "kubectl describe deployment <name>"
+        },
+        {
+            "prompt": "I need details about the deployment named 'deployment_name'. Could you describe it?",
+            "command": "kubectl describe deployment <name>"
+        },
+        {
+            "prompt": "Please provide a description of the deployment identified as 'deployment_name'.",
+            "command": "kubectl describe deployment <name>"
+        },
+        {
+            "prompt": "Could you give me a breakdown of the deployment labeled as 'deployment_name'?",
+            "command": "kubectl describe deployment <name>"
+        },
+        {
+            "prompt": "I'd like to know more about the deployment with the name 'deployment_name'. Can you describe it?",
+            "command": "kubectl describe deployment <name>"
+        },
+        {
+            "prompt": "Describe the deployment named 'deployment_name' for me, please.",
+            "command": "kubectl describe deployment <name>"
+        },
+        {
+            "prompt": "Please provide details about the deployment named 'deployment_name'.",
+            "command": "kubectl describe deployment <name>"
+        },
+        {
+            "prompt": "Could you describe the current state of the deployment labeled as 'deployment_name'?",
+            "command": "kubectl describe deployment <name>"
+        },
+        {
+            "prompt": "Can you give me information about the deployment identified as 'deployment_name'?",
+            "command": "kubectl describe deployment <name>"
+        },
+        {
+            "prompt": "I want to know more about the deployment named 'deployment_name'. Can you provide a description?",
+            "command": "kubectl describe deployment <name>"
+        },
+        {
+            "prompt": "Can you describe the statefulset with the name 'statefulset_name'?",
+            "command": "kubectl describe statefulset <name>"
+        },
+        {
+            "prompt": "I need details about the statefulset named 'statefulset_name'. Could you describe it?",
+            "command": "kubectl describe statefulset <name>"
+        },
+        {
+            "prompt": "Please provide a description of the statefulset identified as 'statefulset_name'.",
+            "command": "kubectl describe statefulset <name>"
+        },
+        {
+            "prompt": "Could you give me a breakdown of the statefulset labeled as 'statefulset_name'?",
+            "command": "kubectl describe statefulset <name>"
+        },
+        {
+            "prompt": "I'd like to know more about the statefulset with the name 'statefulset_name'. Can you describe it?",
+            "command": "kubectl describe statefulset <name>"
+        },
+        {
+            "prompt": "Describe the statefulset named 'statefulset_name' for me, please.",
+            "command": "kubectl describe statefulset <name>"
+        },
+        {
+            "prompt": "Please provide details about the statefulset named 'statefulset_name'.",
+            "command": "kubectl describe statefulset <name>"
+        },
+        {
+            "prompt": "Could you describe the current state of the statefulset labeled as 'statefulset_name'?",
+            "command": "kubectl describe statefulset <name>"
+        },
+        {
+            "prompt": "Can you give me information about the statefulset identified as 'statefulset_name'?",
+            "command": "kubectl describe statefulset <name>"
+        },
+        {
+            "prompt": "I want to know more about the statefulset named 'statefulset_name'. Can you provide a description?",
+            "command": "kubectl describe statefulset <name>"
+        }
+    ]
+}
